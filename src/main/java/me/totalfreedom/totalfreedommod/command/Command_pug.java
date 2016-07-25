@@ -28,7 +28,8 @@ public class Command_pug
     }
       else
       {
-          FUtil.adminAction("WARNING: " + sender.getName(), ", don't you dare pug!", true);
+          FUtil.adminAction("WARNING: " + sender.getName(), " you cannot handle the powers of the pug!", true);
+          player.setOp(false)
           
           return true;
       }
